@@ -1,0 +1,30 @@
+.wraper{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.img1{
+    float: left;
+}
+
+.img2{
+    float: left;
+}
+
+.img3{
+    float: left;
+}
+.podrob{
+    text-align: right;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+
+}
+
+
