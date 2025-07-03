@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    border-bottom: 10px solid #d7d7d7;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  
+}
+.vakation{
+    background-image: url('krasivyi-snimok-versiny-gory.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 500px; 
+    width: 100%; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-bottom: 10px solid #d7d7d7;
+}
+.vakation h1{
+    color: white;
+}
+.search-form {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 900px;
+  
+}
+
+.search-form input,
+.search-form select {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 14px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.search-form button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #32b8ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #1eaef0;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+    gap: 25px;
+    margin-top: 70px;
+    
+}
+.card{
+    width: 400px;
+}
+.img{
+    background: url(paris.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+}
+.img2{
+    background: url(london.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    
+}
+.img3{
+    background: url(york.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+}
+.rating{
+    display: inline-block;
+    font-size: 0;
+}
+.rating span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating > span:before {
+    content: '★';
+}
+.rating > span.active {
+    color: gold;
+}
+.stars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stars p{
+    color: #a29f9f;
+}
+.card p{
+   color: #7c7a7a; 
+}
+.cartinki{
+    border-bottom: 10px solid #d7d7d7;
+}
+.prolist{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px;
+    
+}
+.img4{
+    
+    background: url(lil.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    
+}
+.img5{
+    
+    background: url(person-in-blue-and-red-jacket-and-blue-pants-on-gray-rock-during-daytime-photo-lg.jpeg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    
+}
+.img6{
+    
+    background: url(kvadrotsikl_chelovek_shlem_182714_1280x720.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    
+}
+.rating1{
+    display: inline-block;
+    font-size: 0;
+}
+.rating1 span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating1 > span:before {
+    content: '★';
+}
+.rating1 > span.active1 {
+    color: gold;
+}
+.stars1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stars1 p{
+    color: #ffffff;
+}
+.stars1{
+    display: block;
+    float: right;
+    position: relative;
+    
+    
+}
+.nizhe{
+    position: relative;
+    top: 90px;
+    left: -220px;
+    color: white;
+}
+.rating1{
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+.stars1 p{
+   position: relative;
+    top: 5px;
+    left: 65px; 
+}
+.nizhe1{
+    position: relative;
+    top: 90px;
+    left: -200px;
+    color: white;
+}
+.nizhe2{
+    position: relative;
+    top: 90px;
+    left: -250px;
+    color: white;
+}
+.peredprolist{
+    border-bottom: 20px solid #d7d7d7;
+}
+.subscribe{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px;
+  margin: 50px;
+}
+.btn11 {
+  padding: 12px 70px;
+  border: none;
+  border-radius: 8px;
+  background-color: #32b8ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.text{
+    width: 1000px;
+}
+.sub{
+    border-bottom: 20px solid #d7d7d7;
+}
+.contact-container {
+    display: flex;
+    background: #f6f6f6;
+    gap: 10px;
+}
+.form-column {
+    flex: 1;
+    padding: 40px;
+    
+    
+}
+.image-column {
+    flex: 1;
+    width: 50%;
+    background-image: url('pliazh_more_vyshka_220898_1280x720.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #868686;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #868686;
+}
+
+.form-row {
+    display: flex;
+    gap: 55px;
+}
+
+.form-group {
+    flex: 3;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+button {
+    background-color: #32b8ff;
+    color: white;
+    border: none;
+    padding: 12px 70px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: right;
+}
+
+button:hover {
+    background-color: #348ebe;
+}
+.ssilki{
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    gap: 80px;
+    
+}
+.footer {
+    padding: 40px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #969696;
+    font-weight: 600;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #8d8d8d;
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+.footer-links a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.subscribe-form button {
+    padding: 10px 15px;
+    background-color: #32b8ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.subscribe-form button:hover {
+    background-color: #348ebe;
+}
+.logos{
+    display: flex;
+    gap: 10px;
+}
+.face{
+    background: url(icons8-facebook-30.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+.insta{
+    background: url(icons8-instagram-30.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+.twitter{
+    background: url(icons8-twitter-50.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+.google{
+    background: url(icons8-google-30\(1\).png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.prava{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.divv{
+    display: flex;
+    gap: 15px;
+    margin-right: 80px;
+    text-align: center;
+}
+.foot{
+    border-bottom: 2px solid #d7d7d7;
+}
+.logo a{
+    text-decoration: none;
+    color: #1eaef0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
