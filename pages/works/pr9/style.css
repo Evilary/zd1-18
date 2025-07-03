@@ -1,0 +1,100 @@
+.line li{
+    display: inline-block;
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+}
+.links a{
+    display: block;
+    background-color: blue;
+    margin: 10px;
+    padding: 20px;
+    margin-right: 1500px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.blocks{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blocks div{
+    display: inline;
+    background-color: red;
+    padding: 20px;
+    
+}
+.blocks .non{
+    display: none;
+}
+.links-markers a{
+    display: list-item;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin-right: 1500px;
+}
+.image{
+    background-image: url("weather-sun.jpg");
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+    
+    
+}
+.post1 .image{
+    float: left;
+}
+.post2 .image{
+    float: right;
+}
+.post1{
+    background-color: #930303;
+    color: aliceblue;
+}
+.post2{
+    background-color: #930303;
+    color: aliceblue;
+    
+}
+.cifra li{
+    display: inline-block;
+    background-color: #4682B4;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.image1{
+    background-image: url("weather-sun.jpg");
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+.image2{
+    background-image: url("weather-snow.jpg");
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+.image3{
+    background-image: url("weather-blizzard.jpg");
+    width: 75px;
+    height: 75px;
+    background-size: cover;
+}
+.imagee div{
+    display: inline-block;
+    margin: 40px;
+    padding: 25px;
+}
+.cifra2 li{
+    display: inline-block;
+   
+    color: black;
+    font-size: 30px;
+    margin-top: -100px;
+    padding: 70px;
+}
