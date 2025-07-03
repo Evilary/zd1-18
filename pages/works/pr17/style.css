@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0676cd;
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: #0281e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #056ab7 solid 2px;
+}
+h1{
+    padding-left:170px ;
+}
+.menu{
+    border-left: #0281e4 solid 1px;
+    font-size: 40px;
+    padding-right: 25px;
+}
+.wrapper{
+    width: 480px;
+    padding: 20px;
+}
+.location-icon{
+    background: url(91.png);
+    background-size: cover;
+    width: 29px;
+    height: 38px;
+}
+.loc{
+    padding-left: 50px;
+    margin: 20px 0 10px;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+.tempre{
+    padding-left: 300px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.weathericon{
+background: url(93.png);
+background-size: cover;
+width: 170px;
+height: 150px;
+color: white;
+}
+.koboz{
+margin: 10px auto;
+
+}
+
+.date,.day{
+    margin-top: 50px;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 100px;
+    
+    
+}
+footer{
+    margin-top: 20px;
+}
+.foot{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+   padding: 10px;
+   border-radius: 20px; 
+}
+.mon{
+    text-align: center;
+    width: 120px;
+    background-color: #4ba9f2;
+    padding: 10px;
+}
+.weather{
+    width: 45px;
+    height: 40px;
+    margin-top: 5px;
+    padding: 0px;
+    
+}
+.sun{
+    background: url(92.png);
+}
+.icon{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+.night{
+    background: url(95.png);
+    background-size: cover;
+    
+}
+.rain{
+    background: url(94.png);
+    background-size: cover;
+}
+.tempre a{
+    text-decoration: none;
+    color: white;
+}
+
