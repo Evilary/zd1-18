@@ -1,0 +1,66 @@
+p{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Alumni Sans", sans-serif;
+    margin-bottom: 56px;
+    margin-top: 76px;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 489px 399px 405px;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    width: 1312px;
+}
+
+.img1{
+    background: url(chernkosk.png);
+    width: 489px;
+    height: 612px;
+    background-size: cover;
+    grid-row: span 2;
+
+}
+.img2{
+    background: url(belakoshk.png);
+    width: 399;
+    height: 301;
+    background-size: cover;
+    
+}
+.img3{
+    background: url(ryzhaya.png);
+    width: 399;
+    height: 301;
+    background-size: cover;
+}
+.img4{
+    background: url(belachern.png);
+    width: 399;
+    height: 301;
+    background-size: cover;
+   
+}
+.img5{
+    background: url(babuskin.png);
+    width: 399;
+    height: 301;
+    background-size: cover;
+}
+.text {
+    grid-column: span 3;
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 24px;
+} 
+
+.footer{
+    
+}
