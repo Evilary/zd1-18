@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 450px 450px 450px 450px;
+    margin-top: 20px;
+    align-items: center; 
+    text-align: center;  
+    justify-content: center;
+    background: white;
+}
+h2{
+margin-bottom: 20px;
+padding: 0 20px;
+}
+section article{
+    border: 1px solid #b2b0b0;  
+    margin: 0;                
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+article{
+    padding: 10px;
+    padding-right: 50px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 0px;
+    
+}
+section article .image1 {
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    background: url(pngwing.com.png);
+    
+      
+}
+section article .image2{
+    
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    background: url(shorts1.com.png);
+    background-repeat: no-repeat;
+    
+    
+}
+section article .image3{
+    
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    background: url(pngwing2.com\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    
+}
+section article .image4{
+    
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    background: url(pngwing3.com\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    
+}
+.rating{
+    display: inline-block;
+    font-size: 0;
+}
+.rating span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: lightgrey;
+}
+.rating > span:before {
+    content: '★';
+}
+.rating > span.active {
+    color: gold;
+}
+.gal span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    
+}
+.gal >  span:before {
+    content: '✔';
+}
+.gal >  span{
+    color: rgb(55, 165, 55);
+}
+.gal p{
+    display: inline;
+}
+.price{
+    display: block;
+}
+.skidka{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skidka1{
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.ek p{
+    display: inline;
+}
+.eko{
+    background-color: orange;
+    
+}
+.category{
+    display: inline-block;
+    float: left;
+    margin: 10px 10px 0 0;
+    color: white;
+}  
+.sale{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.nov{
+    background-color: rgb(79, 200, 79);
+    padding: 10px;
+}
+.akc{
+    background-color: rgb(231, 239, 85);
+    padding: 10px;
+}
+.dne{
+    background-color: rgb(231, 98, 98);
+    padding: 10px;
+}
