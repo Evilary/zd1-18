@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+ font-family: 'Montserrat', sans-serif;
+ margin: 0;
+ padding: 0;
+ background: #fff;
+ color: #333;
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2зч;
+  color: #252B42;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.p1 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  
+  
+}
+
+.row {
+  
+  border: 1px solid #E8E8E8;
+  padding-top: 35px;
+  padding-bottom:35px ;
+  padding-left:40px ;
+  padding-right: 40px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: left;
+}
+.ROW{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.img1 {
+  background: url("carbon_tool-box.png");
+  width: 48px;
+  height: 40.7088623046875px;
+  background-size: cover;
+}
+.img2{
+  background-image: url("Vector.png");
+  width: 48px;
+  height: 47.414634704589844px;
+  background-size: cover;
+}
+.img3{
+  background-image: url("carbon_notebook.png");
+  width: 47.9914436340332px;
+  height: 37.89849853515625px;
+  background-size: cover;
+  top: 0.01px;
+  left: 0px;
+}
+.img4{
+  background-image: url("clarity_users-line.png");
+  width: 48px;
+  height: 44.21052551269531px;
+  top: 2px;
+  background-size: cover;
+
+}
+.img5{
+  background-image: url("steam.png");
+  width: 47.875648498535156px;
+  height: 26.811880111694336px;
+  background-size: cover;
+  top: 0.09px;
+  left: 0.06px;
+}
+.img6{
+  background-image: url("medal.png");
+  width: 35.84000015258789px;
+  height: 48px;
+  left: -0px;
+  top: -0px;
+  background-size: cover;
+}
+
+
+
+.ROW h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+
+.row p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 245px;
+  height: 60px;
+}
+
+
+
+
+
+
+
+
