@@ -1,0 +1,72 @@
+
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #afadadb9; 
+    color: black; 
+}
+header {
+    background-color: #333;
+    color: white; 
+    padding: 25px 0px; 
+}
+header .nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content {
+    display: flex; 
+    margin: 20px;
+    padding: 0 15px;
+}
+.main {
+    flex: 3; 
+    margin-right: 20px; 
+}
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.article {
+    border-top: 1px solid #ccc;
+    padding-top: 20px; 
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: #1d911d;
+    margin-bottom: 10px;
+}
+
+aside.sidebar {
+    flex: 1;
+    background-color: white;
+    padding: 20px;  
+}
+
+aside .nav {
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px;
+}
+
+aside .nav-item {
+    color: black;
+    text-decoration: none;
+}
+footer.footer {
+    background-color: #333; 
+    color: white; /* Белый текст */
+    text-align: center;
+    padding: 20px 10px;
+    
+}
